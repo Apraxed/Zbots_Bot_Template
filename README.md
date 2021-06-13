@@ -1,4 +1,4 @@
-# zbotsbotspylib
+$ Zbot's discord bot library
 Python library for all of Zbots bot's that he is currently working on and future ones!
 addon for discord.py made by yours truely, @ZbotDyn0
 
