@@ -6,10 +6,7 @@ from asyncio.tasks import sleep
 client = commands.Bot(command_prefix='', help_command=None)
 
 # this is a long command
-async def ban():
-  @client.command()
-  @commands.has_permissions(ban_members=True)
-  async def tempban(ctx, member: discord.Member, reason = None):
+async def temp_ban10d(ctx, member: discord.Member, reason = None):
       if reason == None:
         reason = 'Breaking the rules'
       length = '10 days'
@@ -23,10 +20,8 @@ async def ban():
       await ctx.send(f"{member}'s ban has expired and they can now rejoin")
       await member.send("Your ban in blueyedevil07's discord server has expired, rejoin if you want to")
       await member.send('https://discord.gg/xuq48V8YRc')
-  
-  @client.command()
-  @commands.has_permissions(ban_members=True)
-  async def permban(ctx, member: discord.Member, reason = None):
+
+async def permban(ctx, member: discord.Member, reason = None):
       if reason == None:
            reason = 'Breaking the rules'
       author = ctx.author

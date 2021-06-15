@@ -25,6 +25,14 @@ async def memecmd():
             embed.set_image(url=res['data']['children'] [random.randint(0, 25)]['data']['url'])
             await ctx.send(embed=embed)
 
+# Random Number Generator
+async def rng(ctx):
+  rng = random.randit(1, 1000)
+  await ctx.send('Your random number is...')
+  await ctx.send(f'{rng}!!!!')
+  print(ctx.author)
+  print(f'got {rng} from the random number generator')
+
 # pp size command
 async def pp_size():
   @client.command(pass_context = True, aliases = ['pp-size'])
