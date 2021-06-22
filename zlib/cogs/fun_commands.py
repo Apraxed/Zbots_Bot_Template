@@ -3,15 +3,16 @@ from discord.ext import commands
 from asyncio.tasks import sleep
 import aiohttp
 import random
+from config import config
 
-
+cfg = config
 client = commands.Bot(command_prefix='', help_command=None)
 
 # meme command
 async def memecmd():
   @client.command(pass_context=True)
   async def meme(ctx):
-    embed = discord.Embed(title="Welcome to r/dankmemes (or r/memes)", description=f"<@{ctx.author.id}>", color = (0x4103fc))
+    embed = discord.Embed(title="Welcome to r/dankmemes (or r/memes)", description=f"<@{ctx.author.id}>", color = cfg.ecolor)
     rng = random.randit(1, 2)
     async with aiohttp.ClientSession() as cs:
       if rng == 1:
@@ -37,5 +38,5 @@ async def rng(ctx):
 async def pp_size():
   @client.command(pass_context = True, aliases = ['pp-size'])
   async def pp_size(ctx):
-    embed = discord.Embed(title = f"{ctx.author} your pp size is...", description = (random.randint(1, 500)), color = (0xFF0000))
+    embed = discord.Embed(title = f"{ctx.author} your pp size is...", description = (random.randint(1, 500)), color = cfg.ecolor)
     await ctx.send(embed = embed)

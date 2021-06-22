@@ -1,12 +1,14 @@
-from cogs import fun_commands, moderation_commands
+from cogs import fun_commands, moderation_commands, modmail
 
 async def modcmds():
-  async def tempban():
+  async def tempban10d():
     moderation_commands.temp_ban10d
   async def pban():
     moderation_commands.permban
   async def kick():
     moderation_commands.kick
+  async def userreports():
+    modmail.modmail
 
 async def funcmds():
     async def meme():

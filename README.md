@@ -35,5 +35,5 @@ The helper
 - [Carnoval15](https://github.com/Carnoval15)
 
 # are you taking reccomendations for commands?
-Yes I am, join my [Discord server](https://discord.gg/JeTmq9B63J) and go to [library reccomendations](https://discord.com/channels/816430534757580830/854420815079800832) and reccomend a command
+Yes I am, join my [Discord server](https://discord.gg/JeTmq9B63J) and go to [library reccomendations](https://discord.com/channels/816430534757580830/854420815079800832) and reccomend a command,
 if it gets added I will dm you to tell you that your command has been added
