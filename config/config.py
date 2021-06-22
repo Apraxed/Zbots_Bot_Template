@@ -10,7 +10,7 @@ USER_REPORTS_CHANNEL_NAME = 'modmail' # userreports channel, change this to the 
 
 BOT_PREFIX = "!" # bot prefix
 
-EMBED_COLOR = 0x433bdb  #replace after'0x' with desired hex code ex. '#ff0188' >> '0xff0188'
+EMBED_COLOR = 0x5865F2-  #replace after'0x' with desired hex code ex. '#ff0188' >> '0xff0188'
 
 NoChannelsPassword = 'deleteall' # Password for the owner only command that deletes the channels, change to whatever you want
 
