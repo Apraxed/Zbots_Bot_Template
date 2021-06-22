@@ -1,6 +1,8 @@
-import discord, zbot_library, os
+import discord, zlib, os
 from discord.ext import commands
 from config import config
+from zlib.ext import funcmds, modcmds
+
 # import dotenv
 # from dotenv import loadenv
 # from keep_aive import keep_alive # REPLIT ONLY
@@ -12,7 +14,4 @@ client = commands.Bot(command_prefix=config.PREFIX, pm_help=True, case_insensiti
 
 # keep_alive() # REPLIT ONLY
 # TOKEN = os.getenv("TOKEN")
-client.run(config.TOKEN, bot=True# or 'TOKEN')
-
-# if you want to hide your token, i featured everything here
-# here is the pip lib that you need for .env files https://pypi.org/project/python-dotenv, check `requirements.txt` or in replit it should load automatically 
+client.run(config.TOKEN, bot=True)

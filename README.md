@@ -1,6 +1,14 @@
 # Zbots discord.py command library
 Zbot's discord.py command library
 
+# How to use:
+This library uses discord.py aswell as aiohttp
+
+Quick and easy way to install all of these:
+-
+- Go to your shell section in your terminal
+- Run this command: `pip install -r requirements.txt`
+
 # Commands fetured
 in `moderation_commands.py`
 -
@@ -24,7 +32,6 @@ Yours truely
 - [Zbot](https://github.com/ZbotDyn0)
 
 The helper
--
 - [Carnoval15](https://github.com/Carnoval15)
 
 # are you taking reccomendations for commands?
