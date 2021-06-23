@@ -36,9 +36,13 @@ async def kick():
 async def rng():
     zbot.funcmds.randomnumgen
 
-@client.command(pass_contet=True)
+@client.command()
 async def tempban10d():
     zbot.modcmds.tempban10d
+
+@client.command(pass_context = True)
+async def warn():
+    zbot.modcmds.warn
 
 # keep_alive() # REPLIT ONLY
 # TOKEN = os.getenv("TOKEN")
