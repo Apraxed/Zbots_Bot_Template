@@ -14,6 +14,10 @@ EMBED_COLOR = 0x433bdb  #replace after'0x' with desired hex code ex. '#ff0188' >
 
 NoChannelsPassword = 'deleteall' # Password for the owner only command that deletes the channels, change to whatever you want
 
+MEMEREDDIT1 = 'r/Memes'
+
+MEMEREDDIT2 = 'r/DankMemes'
+
 """BELOW IS MAKING THE ABOVE CONFIG STUFF UNDERSTANDABLE FOR THE LIBRARY's CODE, DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING"""
 
 TOKEN_ENV = envtoken
@@ -29,3 +33,9 @@ async def ecolor():
 
 async def nukepass():
     NoChannelsPassword
+
+async def subreddit1():
+    MEMEREDDIT1
+
+async def subreddit2():
+    MEMEREDDIT2

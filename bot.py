@@ -1,6 +1,14 @@
-import discord, zlib
+import zlib
 from discord.ext import commands
 from config import config
+import json
+
+with open('reports.json', encoding='utf-8') as f:
+  try:
+    report = json.load(f)
+  except ValueError:
+    report = {}
+    report['users'] = []
 
 # import dotenv
 # from dotenv import loadenv
@@ -28,7 +36,7 @@ async def kick():
 async def rng():
     zbot.funcmds.randomnumgen
 
-@client.command()
+@client.command(pass_contet=True)
 async def tempban10d():
     zbot.modcmds.tempban10d
 
