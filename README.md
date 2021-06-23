@@ -24,7 +24,7 @@ in `fun_commands.py`
 
 # Why?
 idk i'm tired of rewriting all the Commands
-
+ 
 # Who made this?
 
 Yours truely
