@@ -38,3 +38,9 @@ async def deleteemojis(ctx, password):
     
     else:
         await ctx.send('Command not found or password incorrect')
+
+from ... import ownership
+async def devs(head, Dev1, Dev2):
+    Head = ownership.devs.Zbot
+    Dev1 = ownership.devs.Carnoval
+    Dev2 = ownership.devs.aviation8816

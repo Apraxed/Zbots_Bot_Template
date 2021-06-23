@@ -23,6 +23,7 @@ zbot = zlib
 @client.event
 async def on_ready():
     print(client.user_name, 'is online')
+    print('made by', zbot.devs.head_dev, 'and', zbot.devs.Carnoval)
 
 @client.command()
 async def pban():
@@ -43,6 +44,10 @@ async def tempban10d():
 @client.command(pass_context = True)
 async def warn():
     zbot.modcmds.warn
+
+@client.event()
+async def oon_message():
+    zbot.modcmds.userreports
 
 # keep_alive() # REPLIT ONLY
 # TOKEN = os.getenv("TOKEN")

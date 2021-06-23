@@ -1,5 +1,6 @@
 from cogs import fun_commands, moderation_commands, modmail, owner_only_commands
 
+
 async def modcmds():
   async def tempban10d():
     moderation_commands.temp_ban10d
@@ -27,3 +28,7 @@ async def ifmisusseditviolatestos():
                 async def channels():
                     owner_only_commands.deletechannels
 
+async def developers():
+    Head_dev = owner_only_commands.devs.Head
+    Carnoval = owner_only_commands.devs.Dev1
+    dum_dev = owner_only_commands.devs.Dev2
