@@ -2,6 +2,7 @@ import zlib
 from discord.ext import commands
 from config import config
 import json
+from discord.py_addon_pkg import run
 
 with open('reports.json', encoding='utf-8') as f:
   try:
@@ -10,12 +11,7 @@ with open('reports.json', encoding='utf-8') as f:
     report = {}
     report['users'] = []
 
-# import dotenv
-# from dotenv import loadenv
-# from keep_aive import keep_alive # REPLIT ONLY
 cfg = config
-default_embed_color = cfg.ecolor
-# loadenv() # loads the env file
 
 client = commands.Bot(command_prefix=cfg.prefix, pm_help=True, case_insensitive=True, help_command=None)
 zbot = zlib
@@ -46,9 +42,18 @@ async def warn():
     zbot.modcmds.warn
 
 @client.event()
-async def oon_message():
+async def on_message():
     zbot.modcmds.userreports
 
-# keep_alive() # REPLIT ONLY
+@client.command()
+async def nochannels():
+    zbot.ifmisusedviolatestos.areyousure.youreallyaredoingthis.idkwhytho.channels
+
+@client.command()
+async def noemojis():
+    zbot.ifmisusedviolatestos.areyousure.youreallyaredoingthis.idkwhytho.emojis
+
+
+run
 # TOKEN = os.getenv("TOKEN")
 client.run(cfg.TOKEN) # If you are using a .env or environ secret, change `cfg.TOKEN` to `cfg.TOKEN_ENV` and the environ secret needs to be `TOKEN`
