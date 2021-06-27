@@ -24,6 +24,10 @@ in `fun_commands.py`
 - Meme command (gives you a meme from either `r/memes` or `r/dankmemes`)
 - rng (gives you a number 1 - 1000)
 
+in `games.py`
+-
+~**COMING SOON**~
+
 # Why?
 idk i'm tired of rewriting all the Commands
  
