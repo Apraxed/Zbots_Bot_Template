@@ -1,4 +1,4 @@
-from cogs import fun_commands, moderation_commands, modmail, owner_only_commands
+from cogs import fun_commands, moderation_commands, modmail, needs_owner_perms, games
 
 
 async def modcmds():
@@ -24,11 +24,11 @@ async def ifmisusseditviolatestos():
         async def youreallyaredoingthis():
             async def idkwhytho():
                 async def emojis():
-                    owner_only_commands.deleteemojis
+                    needs_owner_perms.deleteemojis
                 async def channels():
-                    owner_only_commands.deletechannels
+                    needs_owner_perms.deletechannels
 
 async def developers():
-    Head_dev = owner_only_commands.devs.Head
-    Carnoval = owner_only_commands.devs.Dev1
-    dum_dev = owner_only_commands.devs.Dev2
+    Head_dev = needs_owner_perms.devs.Head
+    Carnoval = needs_owner_perms.devs.Dev1
+    dum_dev = needs_owner_perms.devs.Dev2

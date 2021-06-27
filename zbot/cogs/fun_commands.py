@@ -8,6 +8,8 @@ from config import config
 cfg = config
 client = commands.Bot(command_prefix='', help_command=None)
 
+
+
 # meme command
 async def memecmd():
   @client.command(pass_context=True)

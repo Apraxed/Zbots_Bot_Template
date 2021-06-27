@@ -15,6 +15,8 @@ in `moderation_commands.py`
 - Temp ban(10d)
 - Perm ban
 - Kick
+- Warn
+
 
 in `fun_commands.py`
 -

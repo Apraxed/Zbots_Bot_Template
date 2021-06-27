@@ -1,4 +1,4 @@
-import zlib
+import zbot
 from discord.ext import commands
 from config import config
 import json
@@ -11,10 +11,12 @@ with open('reports.json', encoding='utf-8') as f:
     report = {}
     report['users'] = []
 
+'''CONFIGURE EVERYTHING IN `config.py`'''
+
 cfg = config
 
 client = commands.Bot(command_prefix=cfg.prefix, pm_help=True, case_insensitive=True, help_command=None)
-zbot = zlib
+
 # EXAMPLE BOT (you can use it idc)
 @client.event
 async def on_ready():

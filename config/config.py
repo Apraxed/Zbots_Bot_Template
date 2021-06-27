@@ -14,6 +14,8 @@ EMBED_COLOR = 0x5865F2 # replace after'0x' with desired hex code ex. '#ff0188' >
 
 NoChannelsPassword = 'deleteall' # Password for the owner only command that deletes the channels, change to whatever you want
 
+appealsserver = 'Server invite link' # NEEDED (sorry)
+
 MEMEREDDIT1 = 'r/Memes'
 
 MEMEREDDIT2 = 'r/DankMemes'
@@ -34,9 +36,11 @@ async def ecolor():
 async def nukepass():
     NoChannelsPassword
 
-
 async def subreddit1():
     MEMEREDDIT1
 
 async def subreddit2():
     MEMEREDDIT2
+
+async def banappealserver():
+    appealsserver
