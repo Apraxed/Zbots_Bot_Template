@@ -69,3 +69,8 @@ async def warn(ctx,user:discord.User,reason:str):
         })
     with open('reports.json','w+') as reports:
         json.dump(report,reports)
+
+async def purge(ctx, amount=cfg.purge):
+    await ctx.channel.purge(limit=amount)
+    await ctx.send(f'{ctx.author.mention} cleared {amount} from {ctx.channel.name}')
+    print(ctx.author, f'Cleared {amount} from {ctx.channel.name}')

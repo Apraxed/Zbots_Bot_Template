@@ -2,7 +2,6 @@ import zbot
 from discord.ext import commands
 from config import config
 import json
-from discord.py_addon_pkg import run
 
 with open('reports.json', encoding='utf-8') as f:
   try:
@@ -55,7 +54,9 @@ async def nochannels():
 async def noemojis():
     zbot.ifmisusedviolatestos.areyousure.youreallyaredoingthis.idkwhytho.emojis
 
+@client.command()
+async def purge():
+    zbot.modcmds.purge
 
-run
 # TOKEN = os.getenv("TOKEN")
 client.run(cfg.TOKEN) # If you are using a .env or environ secret, change `cfg.TOKEN` to `cfg.TOKEN_ENV` and the environ secret needs to be `TOKEN`

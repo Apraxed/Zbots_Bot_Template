@@ -20,6 +20,8 @@ MEMEREDDIT1 = 'r/Memes'
 
 MEMEREDDIT2 = 'r/DankMemes'
 
+default_messages_clear = 10 # change to whatever you want
+
 """BELOW IS MAKING THE ABOVE CONFIG STUFF UNDERSTANDABLE FOR THE LIBRARY's CODE, DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING"""
 
 TOKEN_ENV = envtoken
@@ -42,5 +44,5 @@ async def subreddit1():
 async def subreddit2():
     MEMEREDDIT2
 
-async def banappealserver():
-    appealsserver
+async def purge():
+    default_messages_clear
