@@ -52,6 +52,13 @@ Copyright
 -
 All rights to this code and it's content is legally owned by ZbotsBots (Company developing this code)
 
+Zbots Bots
+-
+Zbots Bots was founded by [Zbot](https://github.com/ZbotDyn0) and [Carnoval15](https://github.com/Carnoval15) on 6/17/21 for the purpouse of making discord bots for a low price, we make custom bots at a low price and
+we host our bots in the cloud for no extra cost to you, if you want to you can request your code for the bot and host it on your own server but if you don't want that or you want us to keep it up to date you can have us host it 24/7 for no extra cost
+
+The only thing is, Zbots Bots is the legal owner of all the code produced by ZbotsBots
+
 License to use
 -
 MIT License

@@ -60,7 +60,6 @@ async def rps(ctx, a):
                 await ctx.send (embed = embed)
             elif a=='rock' and b=='scissors':
                 embed = discord.Embed(title = 'RPS results', description = f'{ctx.author.mention}: {a}\nMe: {b}', color = 0xFFDF00)
-                embed.set_footer (text = 'Win!, 50 tokens added')
                 await ctx.send (embed = embed)
             elif a=='scissors' and b=='rock':
                 embed = discord.Embed(title = 'RPS results', description = f'{ctx.author.mention}: {a}\nMe: {b}')
@@ -68,7 +67,6 @@ async def rps(ctx, a):
                 await ctx.send (embed = embed)
             elif a=='paper' and b=='rock':
                 embed = discord.Embed(title = 'RPS results', description = f'{ctx.author.mention}: {a}\nMe: {b}', color = 0xFFDF00)
-                embed.set_footer (text = 'Win!, 50 tokens added')
                 await ctx.send (embed = embed)
             elif a=='rock' and b=="paper":
                 embed = discord.Embed(title = 'RPS results', description = f'{ctx.author.mention}: {a}\nMe: {b}')
@@ -76,7 +74,6 @@ async def rps(ctx, a):
                 await ctx.send (embed = embed)
             elif a=='scissors' and b=="paper":
                 embed = discord.Embed(title = 'RPS results', description = f'{ctx.author.mention}: {a}\nMe: {b}', color = 0xFFDF00)
-                embed.set_footer (text = 'Win!, 50 tokens added')
                 await ctx.send (embed = embed)
             elif a=="paper" and b=="scissors":
                 embed = discord.Embed(title = 'RPS results', description = f'{ctx.author.mention}: {a}\nMe: {b}')

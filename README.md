@@ -33,12 +33,9 @@ idk i'm tired of rewriting all the Commands
  
 # Who made this?
 
-Yours truely
--
-- [Zbot](https://github.com/ZbotDyn0)
 
-The helper
--
+
+- [Zbot](https://github.com/ZbotDyn0)
 - [Carnoval15](https://github.com/Carnoval15)
 
 # are you taking reccomendations for commands?
