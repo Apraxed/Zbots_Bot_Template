@@ -46,3 +46,6 @@ async def subreddit2():
 
 async def purge():
     default_messages_clear
+
+async def banappealserver():
+    appealsserver
