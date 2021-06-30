@@ -21,7 +21,7 @@ client = commands.Bot(command_prefix=cfg.prefix, pm_help=True, case_insensitive=
 async def on_ready():
     print(client.user_name, 'is online')
     print('made by', zbot.devs.head_dev, 'and', zbot.devs.Carnoval)
-    zbot.playing # Set to "listening" or "playing" or "straming" or "watching"
+    zbot.playing # Set to "listening" or "playing" or "streaming" or "watching"
 
 @client.command()
 async def pban():
