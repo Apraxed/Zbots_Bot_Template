@@ -10,7 +10,7 @@ Quick and easy way to install all of these:
 - Run this command: `pip install -r requirements.txt`
 
 # Commands fetured
-in `moderation_commands.py`
+`moderation_commands.py`
 -
 - Temp ban(10d)
 - Perm ban
@@ -18,23 +18,20 @@ in `moderation_commands.py`
 - Warn
 
 
-in `fun_commands.py`
+`fun_commands.py`
 -
 - pp_size (command that gives you a random number 1 - 500 and says that is how big your pp is)
 - Meme command (gives you a meme from either `r/memes` or `r/dankmemes`)
 - rng (gives you a number 1 - 1000)
+- 8ball ("Questions" as python doesn't let you have a number as the first character for definitions)
 
-in `games.py`
+`games.py`
 -
-~**COMING SOON**~
-
-# Why?
-idk i'm tired of rewriting all the Commands
+- RPS(Rock, Paper, Scissors)
+- Casino(no money to gamble)
  
-# Who made this?
-
-
-
+Who made this?
+-
 - [Zbot](https://github.com/ZbotDyn0)
 - [Carnoval15](https://github.com/Carnoval15)
 

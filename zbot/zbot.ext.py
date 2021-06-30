@@ -1,4 +1,4 @@
-from cogs import fun_commands, moderation_commands, modmail, needs_owner_perms, games
+from cogs import fun_commands, moderation_commands, modmail, needs_owner_perms, game_commands
 
 
 async def modcmds():
@@ -31,12 +31,15 @@ async def ifmisusseditviolatestos():
                     needs_owner_perms.deletechannels
 
 async def developers():
-    Head_dev = needs_owner_perms.devs.Head
-    Carnoval = needs_owner_perms.devs.Dev1
-    dum_dev = needs_owner_perms.devs.Dev2
+    async def Head_Dev():
+        needs_owner_perms.devs.Head
+    async def Carnoval():
+        needs_owner_perms.devs.Dev1
+    async def dum_dev():
+        needs_owner_perms.devs.Dev2
 
 async def games():
     async def rps():
-        games.rps
+        game_commands.rps
     async def casino():
-        games.casino
+        game_commands.casino

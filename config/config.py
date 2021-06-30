@@ -4,11 +4,13 @@ TOKEN: str = "INSERT_TOKEN_HERE"
 import os
 envtoken = os.environ['TOKEN'] # for .env files and environ variable secrets
 
-
 USER_REPORTS_CHANNEL_NAME = 'modmail' # userreports channel, change this to the name of any channel you have in your server that you want user reports to be delivered in
 
+twitch_url = 'https://twitch.tv/TwitchUsername' # for the "Streaming" status
 
 BOT_PREFIX = "!" # bot prefix
+
+status = f'{BOT_PREFIX}help'
 
 EMBED_COLOR = 0x5865F2 # replace after'0x' with desired hex code ex. '#ff0188' >> '0xff0188'
 
@@ -19,6 +21,8 @@ appealsserver = 'Server invite link' # NEEDED (sorry)
 MEMEREDDIT1 = 'r/Memes'
 
 MEMEREDDIT2 = 'r/DankMemes'
+
+Custom_Watermark = 'INSERT USERNAME HERE' # Custom watermark for certian commands 
 
 default_messages_clear = 10 # change to whatever you want
 
@@ -37,6 +41,9 @@ async def ecolor():
 
 async def nukepass():
     NoChannelsPassword
+
+async def cwatermark():
+    Custom_Watermark
 
 async def subreddit1():
     MEMEREDDIT1

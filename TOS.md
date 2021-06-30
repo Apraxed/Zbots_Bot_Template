@@ -31,8 +31,8 @@ Who is the legal owner of the code
 - [Zbots Bots](https://github.com/ZbotsBots)
 - [Polygon(Carnoval)](https://discord.gg/VGFv8rrrts)
 
-# Next part is taken right from discords TOS but it applies here too
-
+Next part is taken right from discords TOS but it applies here too
+=
 
 DISCLAIMER OF WARRANTY
 -
