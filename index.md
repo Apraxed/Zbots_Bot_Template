@@ -8,14 +8,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-# Template
-We made this discord.py template so that you don't have to
-
-
-[Link](url) and ![Image](src)
-```
 ## Reach out to us!
 
 [Twitter](https://twitter.com/ZbotsB)
+
 [Facebook](https://www.facebook.com/Zbots-Bots-112236234429942/)
