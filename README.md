@@ -25,7 +25,7 @@ Quick and easy way to install all of these:
 - rng (gives you a number 1 - 1000)
 - 8ball ("Questions" as python doesn't let you have a number as the first character for definitions)
 
-`games.py`
+`game_commands.py`
 -
 - RPS(Rock, Paper, Scissors)
 - Casino(no money to gamble)
