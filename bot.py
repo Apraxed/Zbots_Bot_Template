@@ -1,7 +1,9 @@
-import zbot.ext, zbot.event.types
+from zbot import main
 from discord.ext import commands
 from config import config
 import json
+
+zbot = main
 
 with open('reports.json', encoding='utf-8') as f:
   try:
